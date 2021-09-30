@@ -1,0 +1,42 @@
+*{  
+    padding: 0;  
+    margin: 0;  
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{  
+    width: 100%;  
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3c6382;
+}
+
+.container{  
+    max-width: 500px;  
+    margin: 100px auto;  
+    width: 100%;
+    background-color: #f8c291;
+}
+.container form{
+    width: 100%;
+    padding: 30px;
+}
+.container form .data_insert{
+    width: 100%;
+    padding: 12px 10px;
+    outline: none;
+    border: 1px solid azure;
+    margin: 8px 0px;
+}
+
+.login{
+    font-weight: bolder;
+}
+
+.sub_btn{
+    justify-content: center;
+    align-items: center;
+}
+
